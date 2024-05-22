@@ -1,0 +1,94 @@
+
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Quần áo nam"
+    },
+    {
+      "id": 2,
+      "name": "Quần áo nữ"
+    },
+    {
+      "id": 3,
+      "name": "Phụ kiện"
+    }
+    
+  ],
+  "products": [
+    {
+      "id": 101,
+      "name": "Áo sơ mi nam ",
+      "cate_id": 1,
+      "price": 250.000,
+      "detail": "Mô tả về sản phẩm...",
+      "image": ""
+    },
+    {
+      "id": 102,
+      "name": "Váy nữ",
+      "cate_id": 2,
+      "price": 250.000,
+      "detail": "Mô tả về sản phẩm...",
+      "image": ""
+    },
+    {
+      "id": 103,
+      "name": "Quần jean ống rộng nữ",
+      "cate_id": 2,
+      "price": 250.000,
+      "detail": "Mô tả về sản phẩm...",
+      "image": ""
+    }
+
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customer_name": "Chế Thái Phủ",
+      "customer_address": "140, ấp Bình Phú Quới, xã Bình Thành, Lấp Vò, Đồng Tháp",
+      "customer_email": "thaiphu2004@gmail.com",
+      "customer_phone_number": "0798934010",
+      "created_date": "2024-01-20",
+      "status": "Đang xử lý"
+    },
+    {
+      "id": 2,
+      "customer_name": "Thị Cẩm Duyền",
+      "customer_address": "Cần Thơ",
+      "customer_email": "camduyen@gmail.com",
+      "customer_phone_number": "0987654321",
+      "created_date": "2024-01-20",
+      "status": "Đã giao hàng"
+    },
+    {
+      "id": 2,
+      "customer_name": "Nguyễn Thành Phát",
+      "customer_address": "Hậu Giang",
+      "customer_email": "thanhphat@gmai.com",
+      "customer_phone_number": "0987654329",
+      "created_date": "2024-01-01",
+      "status": "Đã giao hàng"
+    }
+  ],
+  "order_details": [
+    {
+      "order_id": 1,
+      "product_id": 101,
+      "quantity": 2,
+      "unit_price": 250.000
+    },
+    {
+      "order_id": 1,
+      "product_id": 103,
+      "quantity": 1,
+      "unit_price": 250.000
+    },
+    {
+      "order_id": 2,
+      "product_id": 102,
+      "quantity": 2,
+      "unit_price": 250.000
+    }
+  ]
+}
