@@ -6,6 +6,10 @@ import { HeaderComponent } from './admin/header/header.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './admin/home/home.component';
 import { FooterComponent } from './admin/footer/footer.component';
+import { DashboardComponent } from './admin/dashboard/dashboard.component';
+import { EmployeeComponent } from './admin/employee/employee.component';
+import { ProjectComponent } from './admin/project/project.component';
+import { TaskComponent } from './admin/task/task.component';
 
 
 
@@ -15,6 +19,10 @@ import { FooterComponent } from './admin/footer/footer.component';
     HeaderComponent,
     HomeComponent,
     FooterComponent,
+    DashboardComponent,
+    EmployeeComponent,
+    ProjectComponent,
+    TaskComponent,
    
   ],
   imports: [
