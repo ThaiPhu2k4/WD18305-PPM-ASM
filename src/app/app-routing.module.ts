@@ -9,7 +9,7 @@ import {EmployeeComponent} from './admin/employee/employee.component'
 import { LoginComponent } from './login/login.component';
 import { AddTaskComponent } from './add-task/add-task.component';
 import { AddEmployeeComponent } from './add-employee/add-employee.component';
-
+import { AddProjectComponent } from './add-project/add-project.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -21,6 +21,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'add-task', component: AddTaskComponent },
   { path: 'add-employee', component: AddEmployeeComponent },
+  { path: 'add-project', component: AddProjectComponent },
 
 
 
