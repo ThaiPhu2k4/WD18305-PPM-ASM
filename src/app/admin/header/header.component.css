@@ -5,3 +5,28 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     letter-spacing: 1px;
   }
+  .square-btn-adjust {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #dc3545; /* Adjust the color if needed */
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    
+  }
+
+  .square-btn-adjust:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+  }
+
+  .square-btn-adjust:active {
+    background-color: #bd2130;
+    transform: scale(1);
+  }
+  a{
+    float: right;
+  }
