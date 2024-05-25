@@ -8,6 +8,8 @@ import { ProjectComponent } from './admin/project/project.component';
 import {EmployeeComponent} from './admin/employee/employee.component'
 import { LoginComponent } from './login/login.component';
 import { AddTaskComponent } from './add-task/add-task.component';
+import { AddEmployeeComponent } from './add-employee/add-employee.component';
+
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -18,6 +20,8 @@ const routes: Routes = [
   { path: 'project', component: ProjectComponent },
   { path: 'login', component: LoginComponent },
   { path: 'add-task', component: AddTaskComponent },
+  { path: 'add-employee', component: AddEmployeeComponent },
+
 
 
 
