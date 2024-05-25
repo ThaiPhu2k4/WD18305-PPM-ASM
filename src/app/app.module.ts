@@ -11,6 +11,7 @@ import { EmployeeComponent } from './admin/employee/employee.component';
 import { ProjectComponent } from './admin/project/project.component';
 import { TaskComponent } from './admin/task/task.component';
 import { LoginComponent } from './login/login.component';
+import { AddTaskComponent } from './add-task/add-task.component';
 
 
 
@@ -25,6 +26,7 @@ import { LoginComponent } from './login/login.component';
     ProjectComponent,
     TaskComponent,
     LoginComponent,
+    AddTaskComponent,
     
    
   ],
