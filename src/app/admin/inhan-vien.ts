@@ -3,6 +3,6 @@ export interface InhanVien {
     ho: string;
     ten:string;
     ngay_sinh:string;
-    phai:boolean;
+    phai:string;
     khu_vuc:string;
 }
