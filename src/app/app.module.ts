@@ -11,9 +11,9 @@ import { EmployeeComponent } from './admin/employee/employee.component';
 import { ProjectComponent } from './admin/project/project.component';
 import { TaskComponent } from './admin/task/task.component';
 import { LoginComponent } from './login/login.component';
-import { AddTaskComponent } from './add-task/add-task.component';
-import { AddEmployeeComponent } from './add-employee/add-employee.component';
-import { AddProjectComponent } from './add-project/add-project.component';
+import { AddTaskComponent } from './admin/add-task/add-task.component';
+import { AddEmployeeComponent } from './admin/add-employee/add-employee.component';
+import { AddProjectComponent } from './admin/add-project/add-project.component';
 
 
 
