@@ -4,8 +4,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './admin/home/home.component';
 import { HeaderComponent } from './admin/header/header.component';
 import { TaskComponent } from './admin/task/task.component';
-import { EmployeeComponent } from './admin/employee/employee.component';
 import { ProjectComponent } from './admin/project/project.component';
+import {EmployeeComponent} from './admin/employee/employee.component'
+import { LoginComponent } from './login/login.component';
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'task', component: TaskComponent },
   { path: 'employee', component: EmployeeComponent },
   { path: 'project', component: ProjectComponent },
+  { path: 'login', component: LoginComponent },
 
 
 

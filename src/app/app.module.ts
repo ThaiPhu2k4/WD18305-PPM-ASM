@@ -10,6 +10,7 @@ import { DashboardComponent } from './admin/dashboard/dashboard.component';
 import { EmployeeComponent } from './admin/employee/employee.component';
 import { ProjectComponent } from './admin/project/project.component';
 import { TaskComponent } from './admin/task/task.component';
+import { LoginComponent } from './login/login.component';
 
 
 
@@ -23,6 +24,8 @@ import { TaskComponent } from './admin/task/task.component';
     EmployeeComponent,
     ProjectComponent,
     TaskComponent,
+    LoginComponent,
+    
    
   ],
   imports: [
