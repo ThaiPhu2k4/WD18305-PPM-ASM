@@ -16,6 +16,8 @@ import { AddEmployeeComponent } from './admin/add-employee/add-employee.componen
 import { AddProjectComponent } from './admin/add-project/add-project.component';
 import { HttpClientModule } from '@angular/common/http';  // Nhập HttpClientModule
 import { ProjectService } from './admin/services/project.service';
+import { TaskService } from './admin/services/task.service';
+import { UsersService } from './admin/services/user.service';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,8 @@ import { ProjectService } from './admin/services/project.service';
     AppRoutingModule ,// Add FormsModule here
     HttpClientModule  // Nhập khẩu HttpClientModule ở đây
   ],
-  providers: [ProjectService],
+  providers: [ProjectService,TaskService,UsersService],
   bootstrap: [AppComponent]
+  
 })
 export class AppModule { }
