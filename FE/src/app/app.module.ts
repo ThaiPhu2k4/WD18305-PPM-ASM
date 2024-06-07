@@ -8,14 +8,14 @@ import { HomeComponent } from './admin/home/home.component';
 import { FooterComponent } from './admin/footer/footer.component';
 import { DashboardComponent } from './admin/dashboard/dashboard.component';
 import { EmployeeComponent } from './admin/employee/employee.component';
-import { ProjectComponent } from './admin/project/project.component';
+import { projectsComponent } from './admin/project/project.component';
 import { TaskComponent } from './admin/task/task.component';
 import { LoginComponent } from './login/login.component';
 import { AddTaskComponent } from './admin/add-task/add-task.component';
 import { AddEmployeeComponent } from './admin/add-employee/add-employee.component';
 import { AddProjectComponent } from './admin/add-project/add-project.component';
-
-
+import { HttpClientModule } from '@angular/common/http';  // Nhập HttpClientModule
+import { ProjectService } from './admin/services/project.service';
 
 @NgModule({
   declarations: [
@@ -25,10 +25,11 @@ import { AddProjectComponent } from './admin/add-project/add-project.component';
     FooterComponent,
     DashboardComponent,
     EmployeeComponent,
-    ProjectComponent,
+    projectsComponent,
     TaskComponent,
     LoginComponent,
     AddTaskComponent,
+     
     AddEmployeeComponent,
     AddProjectComponent,
     
@@ -37,9 +38,10 @@ import { AddProjectComponent } from './admin/add-project/add-project.component';
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule // Add FormsModule here
+    AppRoutingModule ,// Add FormsModule here
+    HttpClientModule  // Nhập khẩu HttpClientModule ở đây
   ],
-  providers: [],
+  providers: [ProjectService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
