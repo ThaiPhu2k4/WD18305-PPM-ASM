@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('asm App', () => {
+describe('fpoly App', () => {
   let page: AppPage;
 
   beforeEach(() => {
