@@ -18,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http';  // Nhập HttpClientMo
 import { ProjectService } from './admin/services/project.service';
 import { TaskService } from './admin/services/task.service';
 import { UsersService } from './admin/services/user.service';
+import { ProjectDetailsComponent } from './project-detail/project-detail.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { UsersService } from './admin/services/user.service';
      
     AddEmployeeComponent,
     AddProjectComponent,
+    ProjectDetailsComponent,
     
    
   ],

@@ -10,6 +10,7 @@ import { LoginComponent } from './login/login.component';
 import { AddTaskComponent } from './admin/add-task/add-task.component';
 import { AddEmployeeComponent } from './admin/add-employee/add-employee.component';
 import { AddProjectComponent } from './admin/add-project/add-project.component';
+import { ProjectDetailsComponent } from './project-detail/project-detail.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'add-task', component: AddTaskComponent },
   { path: 'add-employee', component: AddEmployeeComponent },
   { path: 'add-project', component: AddProjectComponent },
+  { path: 'project/:id', component: ProjectDetailsComponent },
 
 
 
